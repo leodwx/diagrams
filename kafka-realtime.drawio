@@ -1,10 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:21:01.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="fzNBmnCCEC3gNvFF2nv5" version="16.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:22:34.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="oHcGMiTH-ddL0yE0WKW7" version="16.2.4" type="github" pages="2">
   <diagram id="OPLSTaAaEjpptsxYEgtz" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-1" target="nryWLB2QJNSPuGqSHJUb-1">
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="268.7481818181818" as="sourcePoint" />
+            <mxPoint x="450" y="268.1118181818183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="297.7481818181818" as="sourcePoint" />
+            <mxPoint x="450" y="297.1118181818183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-1" target="nryWLB2QJNSPuGqSHJUb-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GeeqB23RC3CqzmivtxCw-1" value="Process Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="1">
@@ -54,7 +66,7 @@
         <mxCell id="GeeqB23RC3CqzmivtxCw-29" value="S_ORG_EXT_X" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" vertex="1" parent="1">
           <mxGeometry x="216" y="273.58000000000004" width="22.61" height="33.28" as="geometry" />
         </mxCell>
-        <mxCell id="GeeqB23RC3CqzmivtxCw-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-31">
+        <mxCell id="GeeqB23RC3CqzmivtxCw-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.1;entryY=0.898;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-31" target="GeeqB23RC3CqzmivtxCw-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="310" as="targetPoint" />
           </mxGeometry>
@@ -102,6 +114,18 @@
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="0IvVDsr4xx46r5oWkWUR-34" target="0IvVDsr4xx46r5oWkWUR-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiGDZOSpXWc21hBflC_N-0" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="273.58000000000015" as="sourcePoint" />
+            <mxPoint x="530" y="273.58000000000015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RiGDZOSpXWc21hBflC_N-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="291.58000000000015" as="sourcePoint" />
+            <mxPoint x="530" y="291.58000000000015" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-3" value="Process Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
           <mxGeometry x="410" y="260.65" width="40" height="47.86" as="geometry" />
@@ -179,12 +203,6 @@
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-34" value="Enrich Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
           <mxGeometry x="530" y="260.65" width="40" height="47.86" as="geometry" />
-        </mxCell>
-        <mxCell id="0IvVDsr4xx46r5oWkWUR-35" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="0IvVDsr4xx46r5oWkWUR-3" target="0IvVDsr4xx46r5oWkWUR-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="284.99484089474004" as="sourcePoint" />
-            <mxPoint x="680" y="289.765511184248" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
