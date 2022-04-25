@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:22:34.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="oHcGMiTH-ddL0yE0WKW7" version="16.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:56:38.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="QemXrhRkQnCcGI-hnXd8" version="16.2.4" type="github" pages="2">
   <diagram id="OPLSTaAaEjpptsxYEgtz" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -16,8 +16,10 @@
             <mxPoint x="450" y="297.1118181818183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-1" target="nryWLB2QJNSPuGqSHJUb-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GeeqB23RC3CqzmivtxCw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="283.1118181818183" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GeeqB23RC3CqzmivtxCw-1" value="Process Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="1">
           <mxGeometry x="340" y="260" width="40" height="47.86" as="geometry" />
@@ -89,17 +91,23 @@
         <mxCell id="GeeqB23RC3CqzmivtxCw-41" value="Stream to RDW" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="1">
           <mxGeometry x="770" y="331.71" width="40" height="47.86" as="geometry" />
         </mxCell>
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nryWLB2QJNSPuGqSHJUb-1" target="GeeqB23RC3CqzmivtxCw-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="GeeqB23RC3CqzmivtxCw-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="271.0771477643052" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nryWLB2QJNSPuGqSHJUb-1" target="GeeqB23RC3CqzmivtxCw-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="GeeqB23RC3CqzmivtxCw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="283.04743636417015" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nryWLB2QJNSPuGqSHJUb-1" target="GeeqB23RC3CqzmivtxCw-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nryWLB2QJNSPuGqSHJUb-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="GeeqB23RC3CqzmivtxCw-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="293.93496168638626" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nryWLB2QJNSPuGqSHJUb-1" value="Enrich Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="1">
-          <mxGeometry x="450" y="259" width="40" height="47.86" as="geometry" />
+        <mxCell id="HHCxnuw1zNjuzFJ7a6iT-1" value="Enrich Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Stream_Analytics_Jobs.svg;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="256.64" width="68" height="57.99999999999999" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -109,16 +117,20 @@
       <root>
         <mxCell id="bZx_TzwmVWrBECJr0aBG-0" />
         <mxCell id="bZx_TzwmVWrBECJr0aBG-1" parent="bZx_TzwmVWrBECJr0aBG-0" />
-        <mxCell id="0IvVDsr4xx46r5oWkWUR-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="0IvVDsr4xx46r5oWkWUR-34" target="0IvVDsr4xx46r5oWkWUR-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0IvVDsr4xx46r5oWkWUR-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" target="0IvVDsr4xx46r5oWkWUR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="284.4979080711937" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="0IvVDsr4xx46r5oWkWUR-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="0IvVDsr4xx46r5oWkWUR-34" target="0IvVDsr4xx46r5oWkWUR-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0IvVDsr4xx46r5oWkWUR-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" target="0IvVDsr4xx46r5oWkWUR-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563.0380900327743" y="308.51" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RiGDZOSpXWc21hBflC_N-0" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="273.58000000000015" as="sourcePoint" />
-            <mxPoint x="530" y="273.58000000000015" as="targetPoint" />
+            <mxPoint x="530" y="274" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RiGDZOSpXWc21hBflC_N-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1">
@@ -140,7 +152,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-8" value="Siebel.Card" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="680" y="273.35999999999996" width="22.61" height="33.28" as="geometry" />
+          <mxGeometry x="680" y="267.35999999999996" width="22.61" height="33.28" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.075;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="0IvVDsr4xx46r5oWkWUR-9" target="0IvVDsr4xx46r5oWkWUR-28">
           <mxGeometry relative="1" as="geometry" />
@@ -155,7 +167,7 @@
           <mxGeometry x="680" y="527.29" width="22.61" height="33.28" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-10" value="" style="group" vertex="1" connectable="0" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="90" y="254.58" width="60" height="60" as="geometry" />
+          <mxGeometry x="120" y="254.58" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-11" value="&lt;br&gt;&lt;br&gt;CDC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0IvVDsr4xx46r5oWkWUR-10">
           <mxGeometry width="60" height="60" as="geometry" />
@@ -184,13 +196,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-22" value="Stream to ODS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="870" y="190" width="40" height="47.86" as="geometry" />
+          <mxGeometry x="870" y="184" width="40" height="47.86" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-23" value="Stream to PS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="870" y="265.08" width="40" height="47.86" as="geometry" />
+          <mxGeometry x="870" y="259.08" width="40" height="47.86" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-24" value="Stream to RDW" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="870" y="339.99999999999994" width="40" height="47.86" as="geometry" />
+          <mxGeometry x="870" y="333.99999999999994" width="40" height="47.86" as="geometry" />
         </mxCell>
         <mxCell id="0IvVDsr4xx46r5oWkWUR-28" value="Stream to ODS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
           <mxGeometry x="870" y="440" width="40" height="47.86" as="geometry" />
@@ -201,8 +213,11 @@
         <mxCell id="0IvVDsr4xx46r5oWkWUR-30" value="Stream to RDW" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
           <mxGeometry x="870" y="590" width="40" height="47.86" as="geometry" />
         </mxCell>
-        <mxCell id="0IvVDsr4xx46r5oWkWUR-34" value="Enrich Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Log_Streaming.svg;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
-          <mxGeometry x="530" y="260.65" width="40" height="47.86" as="geometry" />
+        <mxCell id="RiGDZOSpXWc21hBflC_N-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bZx_TzwmVWrBECJr0aBG-1" source="RiGDZOSpXWc21hBflC_N-3" target="0IvVDsr4xx46r5oWkWUR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RiGDZOSpXWc21hBflC_N-3" value="Enrich Stream" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Stream_Analytics_Jobs.svg;fillColor=#E6FFCC;" vertex="1" parent="bZx_TzwmVWrBECJr0aBG-1">
+          <mxGeometry x="516" y="255.57999999999998" width="68" height="57.99999999999999" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
